@@ -2,7 +2,7 @@ library(caTools) #to split into training and test data sets
 library(MASS) #to build linear disriminants
 
 #load data
-setwd('C:\\Venkat\\Github\\Wine_Quality-LDA')
+#setwd('Pick the folder that contains the Wine.csv file')
 dataset = read.csv('Wine.csv')
 
 #split into training and test data sets
